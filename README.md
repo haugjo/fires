@@ -1,7 +1,9 @@
 # FIRES
-This repository contains an implementation of the FIRES framework that is introduced in *Haug et al. (2020), Leveraging Model Inherent Variable Importance for Stable Online Feature Selection.*
+This repository contains an implementation of the FIRES framework that is introduced in
 
-The paper will be published in the proceedings of the KDD'20 conference. In the meantime, please refer to [arXiv](https://arxiv.org/abs/2006.10398).
+*Johannes Haug, Martin Pawelczyk, Klaus Broelemann, and Gjergji Kasneci. 2020. Leveraging Model Inherent Variable Importance for Stable Online Feature Selection. In Proceedings of the 26th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining (KDD '20). Association for Computing Machinery, New York, NY, USA, 1478–1502. DOI:https://doi.org/10.1145/3394486.3403200*
+
+Please refer to our paper at KDD '20 when using this implementation. Archived versions of the paper can be found at [ACM](https://dl.acm.org/doi/10.1145/3394486.3403200) and [arXiv](https://arxiv.org/abs/2006.10398). 
 
 ## Apply FIRES to Your Project
 The FIRES implementation provided here uses a Probit base model to select features in binary classification settings.
