@@ -70,4 +70,9 @@ stream.restart()
 To use FIRES with your own base model, 
 you need to substitute the placeholders `### ADD YOUR OWN MODEL HERE ###` in *fires.py* accordingly.
 
-If you have developed a new instantiation of FIRES that is worth sharing with others, feel free to submit a pull request. 
+If you have developed a new instantiation of FIRES that is worth sharing with others, feel free to submit a pull request.
+
+## Related Works
+The FIRES framework has been used in
+
+Haug, J., & Kasneci, G. (2020). [Learning Parameter Distributions to Detect Concept Drift in Data Streams.](https://arxiv.org/abs/2010.09388) arXiv preprint arXiv:2010.09388. ([code](https://github.com/haugjo/erics)) 
