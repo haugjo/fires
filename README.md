@@ -56,11 +56,11 @@ while stream.has_more_samples():
     x_reduced[:, ftr_selection] = x[:, ftr_selection]
 
     # Test
-    y_pred = predictor.predict(x)
+    y_pred = predictor.predict(x_reduced)
     print(accuracy_score(y, y_pred))
 
     # Train
-    predictor.partial_fit(x, y)
+    predictor.partial_fit(x_reduced, y)
 
 # Restart the FileStream
 stream.restart()
@@ -75,4 +75,4 @@ If you have developed a new instantiation of FIRES that is worth sharing with ot
 ## Related Works
 The FIRES framework has been used in
 
-Haug, J., & Kasneci, G. (2020). [Learning Parameter Distributions to Detect Concept Drift in Data Streams.](https://arxiv.org/abs/2010.09388) arXiv preprint arXiv:2010.09388. ([code](https://github.com/haugjo/erics)) 
+Haug, Johannes, and Gjergji Kasneci. ["Learning Parameter Distributions to Detect Concept Drift in Data Streams."](https://arxiv.org/abs/2010.09388) 2020 25th International Conference on Pattern Recognition (ICPR). IEEE, 2021. ([code](https://github.com/haugjo/erics)) 
