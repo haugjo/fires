@@ -5,6 +5,8 @@ This repository contains an implementation of the FIRES framework that is introd
 
 Please refer to our paper at KDD '20 when using this implementation. Archived versions of the paper can be found at [ACM](https://dl.acm.org/doi/10.1145/3394486.3403200) and [arXiv](https://arxiv.org/abs/2006.10398). 
 
+>**Note:** FIRES is now also included in the [float](https://github.com/haugjo/float) evaluation framework.
+
 ## Apply FIRES to Your Project
 The FIRES implementation provided here uses a Probit base model to select features in binary classification settings.
 It can be used as follows:
